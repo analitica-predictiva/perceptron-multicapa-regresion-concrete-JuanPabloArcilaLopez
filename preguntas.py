@@ -22,13 +22,13 @@ def pregunta_01():
     y = df['strength']
 
     # Asigne una copia del dataframe `df` a la variable `X`.
-    x = df.copy(deep=True)  
+    X = df.copy(deep=True)  
 
     # Remueva la columna `strength` del DataFrame `X`.
-    x.pop('strength')  
+    X.pop('strength')  
 
     # Retorne `X` y `y`
-    return x, y
+    return X, y
 
 
 def pregunta_02():
